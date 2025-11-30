@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>run.soeasy.framework</groupId>
 		<artifactId>framework-dependencies</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.2</version>
 	</parent>
 	<artifactId>framework-pure</artifactId>
 	<name>framework-pure</name>
