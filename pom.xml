@@ -37,18 +37,12 @@
 	</scm>
 	<modules>
 		<module>framework-all</module>
-		<module>framework-pure</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>run.soeasy.framework</groupId>
 				<artifactId>framework-all</artifactId>
-				<version>0.0.2</version>
-			</dependency>
-			<dependency>
-				<groupId>run.soeasy.framework</groupId>
-				<artifactId>framework-pure</artifactId>
 				<version>0.0.2</version>
 			</dependency>
 		</dependencies>
