@@ -3,11 +3,11 @@
 	<parent>
 		<groupId>run.soeasy.framework</groupId>
 		<artifactId>framework</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 	</parent>
 	<artifactId>framework-dependencies</artifactId>
-	<!-- mvn versions:set -DnewVersion=0.0.1 -DgenerateBackupPoms=false -->
-	<version>0.0.1</version>
+	<!-- mvn versions:set -DnewVersion=0.0.2 -DgenerateBackupPoms=false -->
+	<version>0.0.2</version>
 	<packaging>pom</packaging>
 	<name>framework-dependencies</name>
 	<description>framework依赖管理</description>
@@ -37,19 +37,13 @@
 	</scm>
 	<modules>
 		<module>framework-all</module>
-		<module>framework-pure</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>run.soeasy.framework</groupId>
 				<artifactId>framework-all</artifactId>
-				<version>0.0.1</version>
-			</dependency>
-			<dependency>
-				<groupId>run.soeasy.framework</groupId>
-				<artifactId>framework-pure</artifactId>
-				<version>0.0.1</version>
+				<version>0.0.2</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

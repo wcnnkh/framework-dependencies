@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>run.soeasy.framework</groupId>
 		<artifactId>framework-dependencies</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.2</version>
 	</parent>
 	<artifactId>framework-all</artifactId>
 	<name>framework-all</name>
@@ -11,11 +11,35 @@
 	<dependencies>
 		<dependency>
 			<groupId>run.soeasy.framework</groupId>
-			<artifactId>framework-pure</artifactId>
+			<artifactId>core</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>run.soeasy.framework</groupId>
-			<artifactId>slf4j</artifactId>
+			<artifactId>aop</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>run.soeasy.framework</groupId>
+			<artifactId>beans</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>run.soeasy.framework</groupId>
+			<artifactId>dom</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>run.soeasy.framework</groupId>
+			<artifactId>json</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>run.soeasy.framework</groupId>
+			<artifactId>jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>run.soeasy.framework</groupId>
+			<artifactId>messaging</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>run.soeasy.framework</groupId>
+			<artifactId>xml</artifactId>
 		</dependency>
 	</dependencies>
 </project>
