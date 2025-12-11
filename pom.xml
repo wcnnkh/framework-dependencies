@@ -6,8 +6,8 @@
 		<version>1.0.1</version>
 	</parent>
 	<artifactId>framework-dependencies</artifactId>
-	<!-- mvn versions:set -DnewVersion=0.0.2 -DgenerateBackupPoms=false -->
-	<version>0.0.2</version>
+	<!-- mvn versions:set -DnewVersion=0.0.3 -DgenerateBackupPoms=false -->
+	<version>0.0.3</version>
 	<packaging>pom</packaging>
 	<name>framework-dependencies</name>
 	<description>framework依赖管理</description>
@@ -43,7 +43,7 @@
 			<dependency>
 				<groupId>run.soeasy.framework</groupId>
 				<artifactId>framework-all</artifactId>
-				<version>0.0.2</version>
+				<version>0.0.3</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
